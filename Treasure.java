@@ -60,8 +60,9 @@ public class Treasure {
 
     }
 
-    Treasure(String tName, int bValue, bonusType b, classType c, raceType r, classType eC, raceType eR) {
+    Treasure(String tName, String imgPath, int bValue, bonusType b, classType c, raceType r, classType eC, raceType eR) {
         treasureName = tName;
+        imageFilePath = imgPath;
         bonusValue = bValue;
         bType = b;
         cRestrict = c;
@@ -69,5 +70,6 @@ public class Treasure {
         cExclusion = eC;
         rExclusion = eR;
     }
+
 
 }
