@@ -29,8 +29,9 @@ public class Monster {
 
     }
 
-    Monster(String mName, int mLevel, int numTreasures, String comment) {
+ Monster(String mName, String imgPath, int mLevel, int numTreasures, String comment) {
         monsterName = mName;
+        imageFilePath = imgPath;
         level = mLevel;
         treasures = numTreasures;
         wittyComment = comment;
