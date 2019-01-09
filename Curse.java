@@ -5,6 +5,22 @@ public class Curse{
     bonusType affectsBonus;
     int affectAmount;
 
+    String getImage() {
+        return imageFilePath;
+    }
+
+    String getName() {
+        return curseName;
+    }
+
+    int getAmount() {
+        return affectAmount;
+    }
+
+    bonusType getBonus() {
+        return affectsBonus;
+    }
+    
     Curse (){
 
     }
